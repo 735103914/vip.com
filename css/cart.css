@@ -1,0 +1,230 @@
+.head{
+    border-bottom: 2px solid rgb(232,0,127);
+
+}
+.head-inner{
+    margin: 0 auto;
+    width: 1170px;
+    /* background-color: skyblue; */
+    position: relative;
+    padding-bottom: 20px;
+}
+.head-inner>.logo{
+    margin-top: 10px;
+}
+.head-inner>ul{
+    float:right;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.head-inner>ul li{
+    float:left;
+    width: 120px;
+}
+.head-inner>.tiao{
+    display: inline;
+    float: right;
+    position: absolute;
+    top:46px;
+    right: 45px;
+}
+.sever{
+    display: none;
+}
+.sev:hover .sever{
+    display: block;
+    z-index: 999;
+    position: relative;
+    color: #333;
+    font-size: 14px;
+}
+  
+  /* 购物车区域 */
+.content {
+    margin-top: 30px;
+  }
+  
+  .content .selectAll {
+    font-size: 20px;
+    position: relative;
+  }
+  
+  .content .selectAll > input {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .content .selectAll > .text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .content .goodsList > li {
+    /* height: 100px; */
+    padding: 10px 0;
+    display: flex;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+  }
+  
+  .content .goodsList > li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .content .goodsList > li > .select {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content .goodsList > li > .goodsImg {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .content .goodsList > li > .goodsDesc {
+    width: 300px;
+    padding: 10px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .content .goodsList > li > .goodsDesc > p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  
+  .content .goodsList > li > .price,
+  .content .goodsList > li > .xiaoji {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .content .goodsList > li > .count {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content .goodsList > li > .count > button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .content .goodsList > li > .count > input {
+    width: 75px;
+    height: 33px;
+    text-align: center;
+    border: none;
+  }
+  
+  .content .goodsList > li > .operate {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buyInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buyInfo > .buyNum,
+  .buyInfo > .buyMoney,
+  .buyInfo > .operate {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  
+  .buyInfo > .buyNum > span,
+  .buyInfo > .buyMoney > span {
+    font-size: 30px;
+  }
+  .panel-info {
+    border:0;
+}
+
+.goodsImg img{
+    width: 100px;
+    height: 100px;
+  }
+  .panel-info>.panel-heading {
+    color: #f10180;
+    background-color: #f10180;
+    border-color: #f10180;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #f10180;
+  border-color: #f10180;
+}
+
+
+
+/* 尾部区域 */
+ .foot{ 
+/* height: 500px; */
+} 
+.foot .foot-inner{
+  margin: 0 auto;
+  width: 1170px;
+  /* background-color: brown; */
+}
+.content .foot-inner .a1{
+   margin-left: 60px;
+}
+
+.wuxu .wuxulie{
+  margin: 0 auto;
+  width: 1170px;
+  /* background-color: brown; */
+}
+.wuxu .wuxulie ul{
+  float: left;
+  margin-left: 65px;
+  margin-top: 20px;
+}
+.wuxu .wuxulie>ul li{
+  list-style: list-item;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+.wuxu .wuxulie ul .diyige{
+  margin-right: 15px;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+.pink .pink-inner{
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1150px;
+  background-color: rgb(215,35,126);
+}
+.pink .pink-inner ul{
+  box-sizing: border-box;
+  padding-left: 120px;
+  width: 1170px;
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(215,35,126);
+
+}
+.pink .pink-inner>ul li{
+  float: left;
+  
+}

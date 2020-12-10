@@ -1,0 +1,14 @@
+p,ul,ol,dl,h1,h2,h3,h4,h5,h6,button,li,body{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	}
+input,button{
+	border: 0;
+}	
+ul, ol, li{
+	list-style: none;
+}
+
